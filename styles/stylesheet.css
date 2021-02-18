@@ -18,7 +18,6 @@ a {
     align-items: center;
     padding: 6px;
     height: 60px;
-        
 }
 
 .navBar li {
@@ -27,20 +26,19 @@ a {
 }
 
 .left {
-    float:left;
+    align-content: left;
     padding: 5px;
     margin: 0 5px;
     color:#222;
 }
 
-#first {
-    margin-left: 15px;
-}
-
 .right {
-    float: right;
+    align-content: right;
     padding: 10px;
 
+}
+#first {
+    margin-left: 15px;
 }
 
 ul {
@@ -76,4 +74,16 @@ ul {
     width: 1265px;
     display: block;
     text-align: center;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    display: flex;
+}
+
+.footer li {
+    display: inline;
 }
