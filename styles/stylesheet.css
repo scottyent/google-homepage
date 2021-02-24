@@ -23,6 +23,7 @@ a {
 .navBar li {
     text-decoration: none;
     display: inline;
+    vertical-align: middle;
 }
 
 .left {
